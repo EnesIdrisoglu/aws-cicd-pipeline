@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "Hello World, Hello Devops, run build on AWS"
+    return "Hello World, Hello Devops, run build on AWS v2"
 
 
 if __name__ == "__main__":
